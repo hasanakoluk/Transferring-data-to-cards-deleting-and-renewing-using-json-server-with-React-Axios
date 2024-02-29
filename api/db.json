@@ -1,0 +1,29 @@
+{
+    "courses":[
+        { "id" :1,         
+         "content":"Angular, Google tarafından desteklenen, dünya genelinde yazılımcılar tarafından katkı sağlanan açık kaynak kodlu, javascript tabanlı MVC deseni üzerine kurgulanmış bir kütüphanedir. Kısa ifadesi ile; dinamik web uygulamaları için yapısal bir framework’dür. HTML’i şablon dili olarak kullanmamızı sağlar ve uygulamanın bileşenlerini açık bir şekilde ifade etmek için HTML etiketlerini genişletmemize olanak sağlar.JQuery gibi kütüphanelere ihtiyaç duymaz. Asıl amacı tek bir sayfa üzerinden dinamik olarak geliştirme olanağı sağlar. Benzer yapılı kütüphanelerden en büyük farkı çift yönlü olmasıdır. Yani veride olan bir değişiklik görünümü, görünümde olan değişiklik veriyi değiştirir.", 
+         "title":"Angular",
+         "price":150
+    },
+    {    "id" :2,        
+         "content":"Bootstrap, kullanılabilir kod parçalarından oluşan açık kaynaklı ve ücretsiz bir web uygulaması geliştirme araç takımıdır. Sahip olduğu CSS ve JavaScript taslakları, web sitelerinin ve mobil uygulamaların kullanıcılara görünen bileşenleri için kullanılır. HTML, CSS, Less, Sass ve JavaScript ile yazılmış olan Bootstrap, tamamen etkileşimli ve duyarlı web uygulamaları geliştirmek için kullanılabilecek öğrenmesi kolay bir alternatiftir.Bootstrap’i incelemeden önce, web uygulamalarının ön uç iskeletlerinin ne olduğuna yakından bakmakta fayda var. Bu iskeletler, bir uygulamanın kullanıcıların etkileşime geçtiği arayüzüdür. Yapıyı HTML kodları meydana getirir, basamaklı stil şablonları görsel formatı oluşturur ve JavaScript kodları slaytlar, açılan menüler gibi dinamik elementleri mümkün kılar.", 
+         "title":"Bootstrap",
+         "price":250
+    },
+    {    "id" :3,       
+         "content":"C programlama dili, UNIX işletim sistemini geliştirmek için B dili kullanılarak üretilen bir programlama dilidir. C programlama dili daha çok karmaşık programlar geliştirirken kullanılır.C programlama dili, Python ve C++ yazılım dilinin aksine yeni programlama dilleri üretmeye imkan vermektedir. C yazılım dilini öğrenen kişiler, diğer programlama dillerini de rahatlıkla öğrenebilir çünkü C programlama dili diğer yazılım dillerinin temelini oluşturmaktadır.C yazılım dili, yeni programlama dilleri yazma imkanı sunan ve karmaşık programlama işlemlerinde kullanılan yapısal bir programlama dilidir.C yazılım dili; C++, Java ve C# gibi diğer programlama dillerinin temelini oluşturduğu için son derece kullanışlıdır ve kolay öğrenilir. C yazılım dilinin yapısal bir programlama dili olması, karmaşık kodların bloklara bölünerek kolay bir şekilde yazılabilmesi anlamına gelmektedir.", 
+         "title":"C Language",
+         "price":300
+    },
+    {    "id" :4,        
+         "content":"Frontend programcıları, kullanıcının doğrudan etkileşimde bulunduğu kısmı oluşturan kullanıcı arayüzünü geliştirir. Bu arayüz, bir web sitesi veya uygulamada kullanıcının gördüğü her şeyi içerir: metin, resimler, düğmeler, formlar, menüler vb. Frontend programcılarının sorumlulukları şunlar olabilir:Kullanıcı Arayüzü Geliştirme: HTML, CSS ve JavaScript kullanarak web sayfalarını veya uygulamaları tasarlar ve oluşturur. Kullanıcıların görünüm ve deneyimini şekillendirir.Arayüz Tasarımı: Grafik tasarım yetenekleri kullanarak sayfa düzenleri, renk şemaları, tipografi ve diğer görsel öğeleri belirler.", 
+         "title":"Frontend",
+         "price":150
+    },
+    {    "id" :5,       
+         "content":"C# yani diğer bir adıyla C Sharp, Microsoft tarafından geliştirilen sunucu ve gömülü sistemleri çalıştırmak için tasarlanmış programlama dilidir. .NET Framework ortamında kullanılmak üzere geliştirilmiş nesne tabanlı programlama dillerinden birisidir.C# programlama dili ile web programlama konusunda güçlü projeler geliştirilir. Kullanımı kolay modern bir dildir. C# ile uygulama geliştirilirken kullanılan platform Visual Studio IDE’dir. Visual Studio birçok işletim sistemlerinde kullanılmaktadır.", 
+         "title":"C# Language",
+         "price":400
+    }
+    ]
+}

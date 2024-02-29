@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.App{
+   
+    background: linear-gradient(#e66465, #9198e5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.courseMainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.courseTitle{
+    margin: 20px;
+    color:rgb(61, 41, 78);
+}
+.cardDiv{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    width: 350px;
+    padding: 30px;
+    border: 1px solid rebeccapurple;
+    border-radius: 30px 30px;
+    line-height: 20px;
+}
+.cardPrice{
+    font-style: italic;
+    color: rgb(190, 29, 29);
+    line-height: 40px;
+}
+.cardDeleteBtn{
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    margin-top: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.refleshDiv{
+    text-align: center;
 }
